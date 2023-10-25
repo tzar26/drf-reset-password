@@ -1,5 +1,5 @@
 from django.dispatch import Signal
 
-password_updated = Signal(providing_args=["user"])
+password_updated = Signal()
 
-custom_password_update = Signal(providing_args=["user", "password", "token"])
+custom_password_update = Signal()
